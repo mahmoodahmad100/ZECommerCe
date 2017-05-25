@@ -23,6 +23,7 @@
 * Laravel 
 * jQuery 
 * Bootstrap
+* Sass
 
 ### Packages
 * [Stripe](https://github.com/stripe/stripe-php)
