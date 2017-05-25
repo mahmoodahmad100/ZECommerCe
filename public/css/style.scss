@@ -1,0 +1,505 @@
+/* ===== General ===== */
+@import "style-includes/general";
+/* ===== End General ===== */
+
+/* ===== Navbar ===== */
+@import "style-includes/navbar";
+/* ===== End Navbar ===== */
+
+/* ===== HOME ===== */
+#product{
+	text-align: center;
+}
+
+#product .col-md-4{
+  height: 360px;
+  position: relative;
+}
+#product .col-md-4 .element{
+  height: 100%;
+  width: 100%;
+}
+
+#product .col-md-4 .element img{
+  height: 100%;
+  width: 100%;
+}
+
+#product .col-md-4 .overlay{
+  position: absolute;
+  top: 0;
+  left:15px;
+  right: 15px;
+  height: 100%;
+  line-height: 380px;
+  z-index: 10;
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+
+#product .col-md-4 .overlay .view{
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #8EB0F2;
+  background-color: #22253C;
+  border: 3px solid #8EB0F2;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  line-height: 1px;
+  display: none;
+  position: relative;
+  top: 150px;
+  padding-bottom: 7px
+}
+#product .col-md-4 .overlay:hover{
+  background-color: rgba(27, 29, 47, 0.95);
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+
+#product .col-md-4 .overlay .product-details{
+	display: none;
+}
+
+#product .col-md-4 .overlay .product-details a{
+	position: relative;
+	top: 245px;
+	font-weight: bold;
+	background-color: #1bcb42;
+	border: none;
+}
+
+#product .col-md-4 .overlay:hover .view{
+  display: inline;
+}
+
+#product .col-md-4 .overlay:hover .product-details{
+  display: block;
+}
+/* ===== End HOME ===== */
+
+/* ===== Search ===== */
+#search{
+	text-align: center;
+}
+
+#search h2{
+	color: #22253C;
+	margin-bottom: 30px;
+}
+
+#search h2 span{
+	background-color: #F9FF00B3;
+}
+
+#search p{
+	font-size: 20px;
+}
+
+#search p a{
+	color: #8EB0F2;
+}
+
+#search p a span{
+	background-color: #F9FF00B3;
+}
+/* ===== End Search ===== */
+
+/* ===== Login & Register ===== */
+#login-register{
+	@extend .container-custom;
+}
+
+#login-register h2{
+	@extend .container-h4-custom;
+}
+
+#login-register img{
+	@extend .container-img-custom;
+}
+
+#login-register .form-control{
+	@extend .form-control-custom;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#login-register .form-control:focus{
+	box-shadow: none;
+}
+
+#login-register .btn-default{
+	margin-top: 10px;
+	@extend .btn-default-custom;
+}
+
+#login-register .btn-default:hover{
+	background-color: #D2D2D2;
+}
+
+#login-register .fa{
+	font-size: 50px;
+}
+
+#login-register .fa-facebook-square{
+	color: #3b5998;
+}
+
+#login-register .fa-twitter-square{
+	color: #1da1f2;
+}
+
+#login-register .fa-google{
+	color: #ea4335;
+}
+/* ===== End Login & Register ===== */
+
+/* ===== Product ===== */
+#product-item{
+	@extend .container-custom;
+	background-color: #dddcdc;
+}
+
+#product-item h2{
+	@extend .container-h4-custom;
+}
+
+#product-item p{
+	color: #19005c;
+	font-weight: bold;
+}
+
+#product-item .col-md-10{
+	margin-top: 20px;
+}
+
+#product-item .col-md-12 img{
+	width: 100%;
+}
+
+#product-item .col-md-10 img{
+	height: 300px;
+	margin-left: 10px;
+}
+
+#product-item .col-md-2 img{
+	@extend .container-img-custom;
+	height: 150px;
+	width: 150px;
+}
+
+#product-item .btn-success{
+	font-size: 70px;
+	font-weight: bold;
+	background-color: #1bcb42;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/* ===== End Product ===== */
+
+/* ===== Add Product ===== */
+#add-product{
+	@extend .container-custom;
+}
+
+#add-product h2{
+	@extend .container-h4-custom;
+}
+
+#add-product img{
+	@extend .container-img-custom;
+}
+
+#add-product label{
+	@extend .container-label-custom;
+}
+
+#add-product textarea{
+	@extend .container-textarea-custom;
+}
+
+#add-product .form-control{
+	@extend .form-control-custom;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#add-product .form-control:focus{
+	box-shadow: none;
+}
+
+#add-product .btn-info{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 12px;
+	border-radius: 0px;
+	border: none;
+	padding: 12px;
+	margin-left: -10px;
+	background-color: #5e5ea5;
+}
+
+#add-product .btn-info:hover{
+	background-color: #5E5EA5B3;
+}
+
+#add-product .btn-default{
+	margin-top: 10px;
+	@extend .btn-default-custom;
+}
+
+#add-product .btn-default:hover{
+	background-color: #D2D2D2;
+}
+/* ===== End Add Product ===== */
+
+/* ===== Edit Single Product ===== */
+#edit-single-product{
+	@extend .container-custom;
+}
+
+#edit-single-product h2{
+	@extend .container-h4-custom;
+}
+
+#edit-single-product img{
+	@extend .container-img-custom;
+}
+
+#edit-single-product label{
+	@extend .container-label-custom;
+}
+
+#edit-single-product textarea{
+	@extend .container-textarea-custom;
+}
+
+#edit-single-product .form-control{
+	@extend .form-control-custom;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#edit-single-product .form-control:focus{
+	box-shadow: none;
+}
+
+#edit-single-product .btn-info{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 12px;
+	border-radius: 0px;
+	border: none;
+	padding: 12px;
+	margin-left: -10px;
+	background-color: #5e5ea5;
+}
+
+#edit-single-product .btn-info:hover{
+	background-color: #5E5EA5B3;
+}
+
+#edit-single-product .btn-default{
+	margin-top: 10px;
+	@extend .btn-default-custom;
+}
+
+#edit-single-product .btn-default:hover{
+	background-color: #D2D2D2;
+}
+/* ===== End Edit Single Product ===== */
+
+/* ===== Edit Product ===== */
+#edit-product{
+	@extend .container-custom;
+}
+
+#edit-product h2{
+	@extend .container-h4-custom;
+}
+
+#edit-product li{
+	margin-top: 5px;
+}
+
+#edit-product a{
+	font-size: 20px;
+}
+/* ===== End Edit Product ===== */
+
+/* ===== Buy Product ===== */
+#buy-product{
+	@extend .container-custom;
+}
+
+#buy-product h2{
+	@extend .container-h4-custom;
+}
+
+#buy-product img{
+	@extend .container-img-custom;
+}
+
+#buy-product .form-control{
+	@extend .form-control-custom;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#buy-product .form-control:focus{
+	box-shadow: none;
+}
+
+#buy-product .btn-default{
+	margin-top: 10px;
+	@extend .btn-default-custom;
+}
+
+#buy-product .btn-default:hover{
+	background-color: #D2D2D2;
+}
+/* ===== End Buy Product ===== */
+
+/* ===== Profile ===== */
+#profile{
+	@extend .container-custom;
+}
+
+#profile h2{
+	@extend .container-h4-custom;
+}
+
+#profile .account-balance h2{
+	color: #ffffff;
+	background-color: #224a6e;
+}
+
+#profile img{
+	@extend .container-img-custom;
+	height:180px;
+	width:180px;
+}
+
+#profile label{
+	@extend .container-label-custom;
+}
+
+#profile textarea{
+	@extend .container-textarea-custom;
+}
+
+#profile .form-control{
+	@extend .form-control-custom;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#profile .form-control:focus{
+	box-shadow: none;
+}
+
+#profile .btn-default{
+	margin-top: 10px;
+	@extend .btn-default-custom;
+}
+
+#profile .btn-default:hover{
+	background-color: #D2D2D2;
+}
+/* ===== End Profile ===== */
+
+/* ===== Profile Public ===== */
+#profile-public{
+	@extend .container-custom;
+	font-size: 22px;
+}
+
+#profile-public h2{
+	@extend .container-h4-custom;
+}
+
+#profile-public p{
+	color: #2841ff;
+}
+
+#profile-public img{
+	@extend .container-img-custom;
+	height: 230px;
+	width: 230px;
+}
+/* ===== End Profile Public ===== */
+
+/* ===== After Buying Product ===== */
+#after-buying{
+	@extend .container-custom;
+}
+
+#after-buying h2{
+	@extend .container-h4-custom;
+}
+
+#after-buying h5{
+	font-weight: bold;
+}
+
+#after-buying .btn-default{
+	margin-top: 10px;
+	@extend .btn-default-custom;
+}
+
+#after-buying .btn-default:hover{
+	background-color: #D2D2D2;
+}
+/* ===== End After Buying Product ===== */
+
+/* ===== Purchased Item ===== */
+#purchased-item{
+	@extend .container-custom;
+}
+
+#purchased-item h2{
+	@extend .container-h4-custom;
+}
+
+#purchased-item h5{
+	font-weight: bold;
+}
+
+#purchased-item .btn-default{
+	margin-top: 10px;
+	@extend .btn-default-custom;
+}
+
+#purchased-item .btn-default:hover{
+	background-color: #D2D2D2;
+}
+/* ===== End Purchased Item ===== */
+
+/* ===== Purchases ===== */
+#purchases{
+	@extend .container-custom;
+}
+
+#purchases tr,#purchases th{
+	text-align: center;
+}
+
+#purchases .btn-default{
+	@extend .btn-default-custom;
+	padding: 5px;
+}
+
+#purchases .btn-default .fa-check-circle{
+	position: relative;
+	top:3px;
+}
+
+#purchases .fa-check-circle{
+	color: #33C800;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* ===== End Purchases ===== */
