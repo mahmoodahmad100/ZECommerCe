@@ -31,7 +31,7 @@
 
 ### Plugins & Third party resources
 * [Datepicker](http://api.jqueryui.com/datepicker)
-* [Facebook](https://facebook.com)
+* [Facebook](https://facebook.com) (to login)
 * [Twitter](https://twitter.com)
 * [Google](https://google.com)
 * [Stripe](https://stripe.com)
