@@ -1,7 +1,7 @@
 # ZECommerCe (beta)
-* tiny e-commerce website with multiple third party APIs (facebook - twitter - google - stripe)
-* the aim of this website is to integrate third party APIs 
-* this is the beta version ... a lot of features coming up soon
+* Tiny E-Commerce website with multiple third party APIs (facebook - twitter - google - stripe)
+* The aim of this website is to integrate third party APIs 
+* This is the beta version ... a lot of features coming up soon
 
 ### Demo  
 * http://infinite-everglades-85816.herokuapp.com
