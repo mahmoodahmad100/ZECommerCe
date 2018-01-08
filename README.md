@@ -7,7 +7,7 @@
 * http://infinite-everglades-85816.herokuapp.com
 * when adding new payment card you can go to [here](https://stripe.com/docs/testing#cards) and add random digits for MM/YY and CVC or use the following info:
 * Card number:`4242 4242 4242 4242` MM/YY:`12/30` CVC:`5555`
-#### Heroku PaaS issues(storage issues):
+### Heroku PaaS issues(storage issues):
 * when you open the previous link you may see no image for each post ... if you see `No products yet! sign in/up and be the first one to add new product` then that's ok but if you see blank page move the mouse to the left under the navbar and you'll see the product
 * you may see no product , profile , user and author image
 
