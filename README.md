@@ -34,6 +34,6 @@
 * [Facebook](https://facebook.com) (to login)
 * [Twitter](https://twitter.com) (to login)
 * [Google](https://google.com) (to login)
-* [Stripe](https://stripe.com)
+* [Stripe](https://stripe.com) (payment gateway)
 
 
